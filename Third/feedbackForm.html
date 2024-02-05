@@ -8,17 +8,17 @@
 <body>
     <form action="">
         <h1>Feedback Form</h1>
-
+<!-- name -->
         <label for="name">Name:</label>
         <input type="text" name="Name" id="name" placeholder="Write your name"><br><br>
-
+<!-- email -->
         <label for="email">Email:</label>
         <input type="email" name="mail" id="email" placeholder="Write your email"><br><br>
-
+<!-- text area -->
         <label for="msg">Message:</label><br>
         <textarea name="" id="" cols="40" rows="5"></textarea> <br><br>
-
-       <label for="on">Rate us out of 5:</label><br>
+<!-- Rating by radio button && Name attribute is must -->
+       <p>Rate us out of 5:</p><br>
        <div>
         <input type="radio" name="rate" id="one" value="one">
         <label for="one">1</label>
@@ -39,13 +39,10 @@
             <input type="radio" name="rate" id="five" value="five">
             <label for="five">5</label>
         </div>
-       
-        
-       
-
         <br><br>
-
+<!-- submit & reset -->
         <input type="submit" value="Send your message!">
+        <input type="reset" value="Reset Changes">
 
     </form>
     
